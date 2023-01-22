@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_content_bodies",
+  "info": {
+    "displayName": "body",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section1": {
+      "type": "text"
+    },
+    "section2": {
+      "type": "richtext",
+      "default": "hello",
+      "required": true
+    }
+  }
+}
