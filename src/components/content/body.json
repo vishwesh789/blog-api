@@ -6,13 +6,13 @@
   },
   "options": {},
   "attributes": {
-    "section1": {
-      "type": "text"
-    },
-    "section2": {
-      "type": "richtext",
-      "default": "hello",
-      "required": true
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBaloon"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }
