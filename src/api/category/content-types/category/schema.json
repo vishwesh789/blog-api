@@ -26,13 +26,8 @@
       "target": "api::article.article",
       "mappedBy": "category"
     },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+    "img": {
+      "type": "string"
     }
   }
 }

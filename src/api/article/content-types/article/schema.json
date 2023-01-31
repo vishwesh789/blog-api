@@ -16,14 +16,6 @@
       "type": "string",
       "required": true
     },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "body": {
       "displayName": "body",
       "type": "component",
@@ -46,6 +38,13 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "articles"
+    },
+    "img": {
+      "type": "string"
+    },
+    "metaDesc": {
+      "type": "text",
+      "required": true
     }
   }
 }
