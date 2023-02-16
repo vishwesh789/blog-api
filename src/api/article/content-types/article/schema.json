@@ -45,6 +45,18 @@
     "metaDesc": {
       "type": "text",
       "required": true
+    },
+    "tags": {
+      "type": "json",
+      "required": false
+    },
+    "readTime": {
+      "type": "integer",
+      "required": true,
+      "default": 5
+    },
+    "dataSources": {
+      "type": "json"
     }
   }
 }

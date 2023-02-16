@@ -13,6 +13,9 @@
       },
       "required": true,
       "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "sample": {
+      "type": "richtext"
     }
   }
 }
