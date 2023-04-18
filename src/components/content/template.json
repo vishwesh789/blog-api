@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_content_templates",
+  "info": {
+    "displayName": "template"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.body"
+    },
+    "img": {
+      "type": "string",
+      "required": true
+    },
+    "metaDesc": {
+      "type": "text",
+      "required": true
+    },
+    "tags": {
+      "type": "json"
+    },
+    "readTime": {
+      "type": "integer",
+      "default": 5,
+      "required": true
+    },
+    "dataSources": {
+      "type": "json"
+    }
+  }
+}

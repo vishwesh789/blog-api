@@ -68,6 +68,30 @@
       "relation": "oneToMany",
       "target": "api::article.article",
       "mappedBy": "author"
+    },
+    "careers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::career.career",
+      "mappedBy": "author"
+    },
+    "technologies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::technology.technology",
+      "mappedBy": "author"
+    },
+    "lifestyles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::lifestyle.lifestyle",
+      "mappedBy": "author"
+    },
+    "finances": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::finance.finance",
+      "mappedBy": "author"
     }
   }
 }

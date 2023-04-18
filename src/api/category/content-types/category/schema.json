@@ -28,6 +28,30 @@
     },
     "img": {
       "type": "string"
+    },
+    "careers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::career.career",
+      "mappedBy": "category"
+    },
+    "technologies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::technology.technology",
+      "mappedBy": "category"
+    },
+    "lifestyles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::lifestyle.lifestyle",
+      "mappedBy": "category"
+    },
+    "finances": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::finance.finance",
+      "mappedBy": "category"
     }
   }
 }

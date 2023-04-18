@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lifestyles",
+  "info": {
+    "singularName": "lifestyle",
+    "pluralName": "lifestyles",
+    "displayName": "Lifestyle",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.body"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "img": {
+      "type": "string",
+      "required": true
+    },
+    "metaDesc": {
+      "type": "text",
+      "required": true
+    },
+    "tags": {
+      "type": "json"
+    },
+    "readTime": {
+      "type": "integer",
+      "required": true,
+      "default": 5
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "lifestyles"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "lifestyles"
+    }
+  }
+}

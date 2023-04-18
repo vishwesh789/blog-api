@@ -12,7 +12,7 @@ globalThis.CKEditorConfig = {
 
     /* Here you can redefine default configs
     or add completely new ones.
-    Each config includes: 
+    Each config includes:
     "styles", "field" and "editorConfig" properties.
     Property "field" is required. */
 
@@ -23,7 +23,7 @@ globalThis.CKEditorConfig = {
             // editorConfig:{}
         },
         custom:{
-            
+
             /* Styles for this specific editor.
             This will be passed into the editor's parent container. */
 
@@ -82,6 +82,7 @@ globalThis.CKEditorConfig = {
                     CKEditor5.table.TableCaption,
                     CKEditor5.strapiPlugins.StrapiMediaLib,
                     CKEditor5.strapiPlugins.StrapiUploadAdapter,
+                    CKEditor5.codeBlock.CodeBlock,
                   ],
 
                   /* By default, for plugin's UI will use
@@ -137,6 +138,7 @@ globalThis.CKEditorConfig = {
                       'toggleTableCaption'
                     ]
                   }
+
             }
         }
     },

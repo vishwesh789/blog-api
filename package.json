@@ -13,9 +13,10 @@
   "dependencies": {
     "@_sh/strapi-plugin-ckeditor": "^2.0.0",
     "@ckeditor/ckeditor5-markdown-gfm": "^36.0.0",
-    "@strapi/strapi": "4.6.1",
-    "@strapi/plugin-users-permissions": "4.6.1",
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.7",
     "@strapi/plugin-i18n": "4.6.1",
+    "@strapi/plugin-users-permissions": "4.6.1",
+    "@strapi/strapi": "4.6.1",
     "better-sqlite3": "7.4.6"
   },
   "author": {

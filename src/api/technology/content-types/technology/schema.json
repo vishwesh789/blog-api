@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "technologies",
+  "info": {
+    "singularName": "technology",
+    "pluralName": "technologies",
+    "displayName": "technology",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.body",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "img": {
+      "type": "string",
+      "required": true
+    },
+    "metaDesc": {
+      "type": "text",
+      "required": true
+    },
+    "tags": {
+      "type": "json",
+      "required": false
+    },
+    "readTime": {
+      "type": "integer",
+      "default": 5,
+      "required": true
+    },
+    "dataSources": {
+      "type": "json"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "technologies"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "technologies"
+    }
+  }
+}
