@@ -1143,13 +1143,6 @@
   dependencies:
     ckeditor5 "^36.0.0"
 
-"@ckeditor/ckeditor5-code-block@^37.0.1":
-  version "37.0.1"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-code-block/-/ckeditor5-code-block-37.0.1.tgz#62c43e132abfe62ee3793e2e6fbc9f77833301a2"
-  integrity sha512-anFKx4VIZX1u4o4MJIJ+6a4L9lt9PTLmIWxnxLJfkSua0OLk2hEZ6xOABLrDWkXErCeFfy6YW6wRpgaht4RsNg==
-  dependencies:
-    ckeditor5 "^37.0.1"
-
 "@ckeditor/ckeditor5-core@^36.0.0":
   version "36.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-core/-/ckeditor5-core-36.0.0.tgz#f4626997479aab98ef4309b9958ae21edb335512"
@@ -4338,7 +4331,7 @@ cipher-base@^1.0.0, cipher-base@^1.0.1, cipher-base@^1.0.3:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
-ckeditor5@>=35.1.0, ckeditor5@^37.0.1:
+ckeditor5@>=35.1.0:
   version "37.0.1"
   resolved "https://registry.yarnpkg.com/ckeditor5/-/ckeditor5-37.0.1.tgz#36058706b2aac20f54c206f04f505c4ba504923f"
   integrity sha512-R/yuGQ0TBH+ZeCpglhH4LafAcEs5qKlvKEAhumrVJkkEzuWC/nyvOW+5IvSmBvtzghQ1ostxtNyEMQB3/HcwhA==
