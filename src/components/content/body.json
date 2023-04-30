@@ -9,10 +9,14 @@
     "content": {
       "type": "customField",
       "options": {
-        "preset": "toolbar"
+        "output": "Markdown",
+        "preset": "rich"
       },
-      "required": true,
-      "customField": "plugin::ckeditor5.CKEditor"
+      "customField": "plugin::ckeditor.CKEditor",
+      "required": true
+    },
+    "content2": {
+      "type": "richtext"
     }
   }
 }
